@@ -17,7 +17,7 @@ app.use(express.static("/public"));
 // HTML Routes
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/Express.JS-Note-Taker/Develop/Public/index.html"));
+  res.sendFile(path.join(__dirname + "/Develop/Public/express.js-note-taker/index.html"));
 });
 
 app.get("/notes", (req, res) => {
