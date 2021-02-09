@@ -17,11 +17,11 @@ app.use(express.static("develop/public"));
 // HTML Routes
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/develop/public/index.html"));
+  res.sendFile(path.join(__dirname + "/Express.JS-Note-Taker/Develop/Public/index.html"));
 });
 
 app.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname + "/develop/public/notes.html"));
+  res.sendFile(path.join(__dirname + "/Express.JS-Note-Taker/Develop/Public/notes.html"));
 
 });
 // api routes
