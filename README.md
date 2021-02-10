@@ -3,8 +3,8 @@
 ## App deployed on Heroku here: https://murmuring-journey-97359.herokuapp.com/
 ## App repository here: https://github.com/LindaHlubi/Express.JS-Note-Taker
 
-(./Assets/11-express-homework-demo-01.png)
-(./Assets/note.png)
+![Demo index.html](./Assets/11-express-homework-demo-01.png)
+![Demo notes.html](./Assets/note.png)
 
 ## Version 
 1.0.0
