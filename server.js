@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 });
 
 app.get("/notes", (req, res) => {
-  res.sendFile('notes.html',{root:__dirname + '/public'});
+  res.sendFile('notes.html',{root:__dirname + '/Public'});
 
 });
 // api routes
