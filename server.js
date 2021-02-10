@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 });
 
 
-app.get('/notes', function(req, res) {
+app.get('/', function(req, res) {
   res.sendFile('notes.html',{root:__dirname+'/public'});
 
 });
