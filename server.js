@@ -20,8 +20,9 @@ app.get('/', function(req, res) {
   res.sendFile('index.html',{root:__dirname+'/public'});
 });
 
-app.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname + '/notes.html'));
+
+app.get('/notes', function(req, res) {
+  res.sendFile('notes.html',{root:__dirname+'/public'});
 
 });
 // api routes
