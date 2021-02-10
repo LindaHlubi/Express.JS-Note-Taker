@@ -2,19 +2,20 @@
 
 ## App deployed on Heroku here: https://murmuring-journey-97359.herokuapp.com/
 
-##Version
+## Version 
 1.0.0
 
-##Table of Contents:
-TITLE
-VERSION
-DESCRIPTION
-INSTALLATION
-USAGE
-LICENSE
-CONTRIBUTING
-TESTS
-CONTACT
+## Table of Contents:
+
+## TITLE
+## VERSION
+## INSTALLATION
+## USAGE
+## LICENSE
+## CONTRIBUTION
+## TESTS
+## CONTACT
+
 
 ## User Story
 
@@ -26,17 +27,17 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 
 ## Installation:
-###Terminal
+### Terminal
 Open terminal and run node server.js
 View in browser - localhost:8000
 
-##Usage:
+## Usage:
 This application is intended to be used by a user that would like to list tasks / thoughts to help organize their day better. A great reminder of things to be completed. 
 
-##License:
+## License:
 MIT
 
-##Questions:
+## Questions / Contact
 If you have a questions pertaining to this app please contact me linda_hlubi@icloud.com
 ```
 
