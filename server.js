@@ -16,8 +16,8 @@ app.use(express.static(path.join(__dirname, 'Public')));
 
 // HTML Routes
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
+app.get('/', function(req, res) {
+  res.sendFile('index.html',{root:__dirname+'/public'});
 });
 
 app.get("/notes", (req, res) => {
