@@ -12,16 +12,17 @@ var PORT = process.env.PORT || 3000;
 // Express app to handle data parsing set up
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("/public"));
+
+app.use(express.static(path.join(__dirname, 'Public')));
 
 // HTML Routes
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/index.html"));
+app.get('/', function(req, res) {
+  res.sendFile('index.html',{root:__dirname+'/public'});
 });
 
 app.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname + "/public/notes.html"));
+  res.sendFile('notes.html',{root:__dirname + '/Public'});
 
 });
 // api routes
